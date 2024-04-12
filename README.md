@@ -7,6 +7,8 @@
 
 ```pip install pyshark```
 
+如果不想自行安装python环境的可以去[Releases](https://github.com/LFMJUN/douyin_rtmp/releases)下载已经打包好的main.exe文件和config.json，只需要自行安装[Wireshark](https://www.wireshark.org/)即可
+
 ## 需要修改的地方
 
 ### config.json
