@@ -28,3 +28,13 @@ tshark_path = "F:\\Program Files\\Wireshark\\tshark.exe"
 
 20240412 项目发布
 
+## Star History
+
+<a href="https://star-history.com/#LFMJUN/douyin_rtmp&Date">
+
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=LFMJUN/douyin_rtmp&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=LFMJUN/douyin_rtmp&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=LFMJUN/douyin_rtmp&type=Date" />
+ </picture>
+</a>
