@@ -1,0 +1,5 @@
+{
+    "tshark_path": "F:\\\\Program Files\\\\Wireshark\\\\tshark.exe",
+    "display_filter": "((rtmpt) && (_ws.col.info contains \"connect\")) || (_ws.col.info contains \"releaseStream\")",
+    "interface": "以太网"
+}
