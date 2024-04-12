@@ -5,7 +5,7 @@
 
 需要自行安装[Wireshark](https://www.wireshark.org/)
 
-`pip install pyshark`
+```pip install pyshark```
 
 ### 需要修改的地方
 
