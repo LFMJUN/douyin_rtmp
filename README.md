@@ -22,7 +22,7 @@ tshark_path = "F:\\Program Files\\Wireshark\\tshark.exe"
 
 ### 已知问题
 
-目前直接退出程序会报错OSError，初步判定为异步循环问题，不影响修复
+目前直接退出程序会报错OSError，初步判定为异步循环问题，不影响使用
 
 ### 更新日志
 
