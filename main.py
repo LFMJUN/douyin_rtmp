@@ -65,13 +65,13 @@ def modify_obs_config(file_path, server, code):
 
     # 修改server属性
     if "server" in data["settings"]:
-        data["server"] = server
+        data["settings"]["server"] = server
     else:
         print(f"- 键 'server' 不存在于 JSON 数据中")
 
     # 修改key属性
     if "key" in data["settings"]:
-        data["key"] = code
+        data["settings"]["key"] = code
     else:
         print(f"- 键 'key' 不存在于 JSON 数据中")
 
