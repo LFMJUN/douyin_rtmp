@@ -12,26 +12,26 @@
 ## 需要修改的地方
 
 ### config.json
-
+config.json文件需要与程序放在同一目录
 ```
 {
     "tshark_path": "F:\\\\Program Files\\\\Wireshark\\\\tshark.exe",
     "display_filter": "((rtmpt) && (_ws.col.info contains \"connect\")) || (_ws.col.info contains \"releaseStream\")",
-    "interface": "以太网"
+    "interface": "以太网",
+    "obs_path": "C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe",
+    "obs_config_path": "C:\\Users\\adolp\\AppData\\Roaming\\obs-studio\\basic\\profiles\\默认\\service.json"
 }
 ```
 
-display_filter一般不需要修改，默认即可，更改interface和tshark_path即可
-
-替换 'tshark_path' 为你的 tshark.exe 路径
-
-替换 'interface' 为你要抓包的网络接口，如 'eth0'、'wlan0' 等
-
-config.json文件需要与程序放在同一目录
+- tshark_path: 替换 'tshark_path' 为你的 tshark.exe 路径
+- display_filter: 一般不需要修改，默认即可，更改interface和tshark_path即可
+- interface: 替换 'interface' 为你要抓包的网络接口，如 'eth0'、'wlan0' 等
+- obs_path: 替换为你的 obs.exe 路径，**不填也可**，这样不会启动obs
+- obs_config_path: 替换为你的配置文件路径，**不填也可**，这样不会修改；配置文件一般在：`当前用户目录/AppData/Roaming/obs-studio/basic/profiles/<配置文件名>/service.json`
 
 ## 已知问题
 
-目前直接退出程序会报错OSError，初步判定为异步循环问题，不影响使用
+~~目前直接退出程序会报错OSError，初步判定为异步循环问题，不影响使用~~
 
 需要在打开游戏之前执行抓包操作，否则有可能被识别为作弊程序
 
@@ -40,6 +40,8 @@ config.json文件需要与程序放在同一目录
 20240412 项目发布
 
 20240412 支持通过json文件修改路径、网卡、筛选器
+
+20241205 支持获取到推流码后修改obs配置文件,并启动obs
 
 ## Demo
 
