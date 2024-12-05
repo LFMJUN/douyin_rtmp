@@ -103,10 +103,10 @@ def main():
     print("* 推流码: " + code)
 
     # 修改配置文件并启动
-    if obs_config_path is not None or "":
+    if obs_config_path is not None and obs_config_path != "":
         modify_obs_config(obs_config_path, server, code)
 
-    if obs_path is not None or "":
+    if obs_path is not None and obs_path != "":
         start_obs(obs_path)
 
 
